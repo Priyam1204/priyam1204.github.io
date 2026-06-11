@@ -51,13 +51,22 @@
       p, li { margin: 0.25rem 0; color: var(--muted); }
       ul { padding-left: 1.1rem; margin: 0; }
       .item { margin-bottom: 0.8rem; }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #020617;
+          --card: #0f172a;
+          --text: #e2e8f0;
+          --muted: #cbd5e1;
+          --border: #334155;
+        }
+      }
     </style>
   </head>
   <body>
     <main class="container">
       <header>
         <h1>Priyam</h1>
-        <h2 class="subtitle">Aspiring Software Developer</h2>
+        <p class="subtitle">Aspiring Software Developer</p>
         <div class="links">
           <a href="https://github.com/Priyam1204">GitHub Profile</a>
         </div>

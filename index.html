@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyam | Portfolio</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #2563eb;
+        --border: #e2e8f0;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1rem 3rem;
+      }
+      header {
+        background: linear-gradient(135deg, #1d4ed8, #2563eb);
+        color: #fff;
+        border-radius: 16px;
+        padding: 2rem;
+        margin-bottom: 1.25rem;
+      }
+      h1 { margin: 0; font-size: 2rem; }
+      .subtitle { margin: 0.5rem 0 0; opacity: 0.95; }
+      .links { margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+      .links a { color: #dbeafe; text-decoration: none; }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        margin-top: 1rem;
+      }
+      h2 { margin: 0 0 0.75rem; font-size: 1.2rem; }
+      h3 { margin: 0; font-size: 1rem; }
+      p, li { margin: 0.25rem 0; color: var(--muted); }
+      ul { padding-left: 1.1rem; margin: 0; }
+      .item { margin-bottom: 0.8rem; }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Priyam</h1>
+        <p class="subtitle">Aspiring Software Developer</p>
+        <div class="links">
+          <a href="https://github.com/Priyam1204">GitHub</a>
+          <a href="mailto:your-email@example.com">Email</a>
+          <a href="https://www.linkedin.com/">LinkedIn</a>
+        </div>
+      </header>
+
+      <section class="card">
+        <h2>Professional Summary</h2>
+        <p>
+          Motivated developer with a strong interest in building practical, user-focused software.
+          This portfolio is structured from resume-style sections for quick scanning.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Skills</h2>
+        <ul>
+          <li>Programming: C++, JavaScript, Python</li>
+          <li>Web: HTML, CSS, Responsive UI</li>
+          <li>Tools: Git, GitHub, VS Code</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Projects</h2>
+        <div class="item">
+          <h3>Portfolio Website</h3>
+          <p>Built and deployed a personal portfolio using GitHub Pages.</p>
+        </div>
+        <div class="item">
+          <h3>Resume Project Highlights</h3>
+          <p>Add your key projects here with outcomes, technologies, and links.</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Education</h2>
+        <p>Add your degree, institution, and graduation year from your resume.</p>
+      </section>
+
+      <section class="card">
+        <h2>Experience</h2>
+        <p>Add internships, roles, and achievements from your resume.</p>
+      </section>
+    </main>
+  </body>
+</html>

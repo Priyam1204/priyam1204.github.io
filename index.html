@@ -37,7 +37,8 @@
       h1 { margin: 0; font-size: 2rem; }
       .subtitle { margin: 0.5rem 0 0; opacity: 0.95; }
       .links { margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap; }
-      .links a { color: #dbeafe; text-decoration: none; }
+      .links a { color: #dbeafe; text-decoration: underline; }
+      .links a:hover { text-decoration-thickness: 2px; }
       .card {
         background: var(--card);
         border: 1px solid var(--border);
@@ -58,7 +59,7 @@
         <h1>Priyam</h1>
         <p class="subtitle">Aspiring Software Developer</p>
         <div class="links">
-          <a href="https://github.com/Priyam1204">GitHub</a>
+          <a href="https://github.com/Priyam1204" aria-label="Visit my GitHub profile">GitHub</a>
         </div>
       </header>
 
